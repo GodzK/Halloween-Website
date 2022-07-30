@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+h1{
+  font-size:40px ;
+  margin-left:-20px;
+  margin-top:0px;
+   
+ 
+}h2{
+  color: rgb(185, 160, 57);
+
+}
+h3{
+  font-size: 30px;
+  color: azure;
+}
+/*h3เเท็กคำพูดในเรื่อง*/
+h4{
+
+
+}
+h5{
+  text-align: start;
+  font-size: 30px;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+/*หัวเรื่อง*/
+h6{
+  font-size: 40px;
+  font-family: 'Kanit', sans-serif;
+  color:white;
+}
+body {
+  background-color: #111;
+  height: 2500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Nosifer', cursive;
+  color: rgb(170, 170, 63);
+  
+
+
+}
+
+ul li a{
+  text-decoration: none;
+  color :rgb(170, 170, 63);
+  display:block;
+}
+ul li:hover{
+  background-color:rgb(186, 0, 0) ;
+}
+nav{
+  width:100%;
+  height:70px;
+  background-color: black;
+}
+.main{
+  margin-top:-70px ;
+  margin-left:500px ;
+}
+ul li:hover>ul{
+  display:block;
+}
+ul ul {
+  display:none;
+}
+p{
+  text-align: center;
+  font-size: 80px;
+  margin-top: 400px;
+  margin-bottom: auto;
+  background-color: black;
+}
+
+/*ขนาดคำหัวเรื่อง*/
+button{
+  width: 180px;
+  height: 40px;
+  background-color: rgb(184, 113, 20);
+  color: azure;
+  border-radius: 30px;
+  
+  
+}
